@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icono.png">
+    <link rel="stylesheet" href="./main.css">
+    
+    <title>Tu Pedido | Dulce Postre</title>
+</head>
+<body>
+    <h1>Aqui se hace el pedido</h1>
+
+    <p align="light"><img src="./img/icono.png" alt="logoTaconauta" width="150px"></p>
+    <form action="pedido.js">
+        <label for="Nombre" class="subtitle">¿Que pastel deseas?</label><br>
+            <input type="text" placeholder="Space cake"><br><br>
+
+            <label for="Nombre" class="subtitle">¿Cuantos pasteles deseas?</label><br>
+            <input type="number" name ="mesa" id="mesa" placeholder="2">
+
+            <p>¿Para comer aqui? o ¿Para llevar?</p>
+            <input type="radio" id="aqui" name="aquiollevar" value="aqui">
+            <label for="aqui">Aqui</label><br>
+            <input type="radio" id="llevar" name="aquiollevar" value="Llevar">
+            <label for="llevar">llevar</label><br>
+
+            <p>¿De que seran tus tacos?</p>
+            <input type="checkbox" name="mercurio" id="mercurio" value="Mercurio">
+            <label for="mercurio">Mercurio</label>
+            <input type="number" name="mercurioCuantos" id="mercurioCuantos" placeholder="¿Cuantos?">
+
+            <br><br>
+            <input type="reset">
+            <button value="Boton1"  onclick="alert('Pedido Realziado')">Enviar</button>
+            <!--<input type="submit">-->
+    </form>
+</body>
+</html>

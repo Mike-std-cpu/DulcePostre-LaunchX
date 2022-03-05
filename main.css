@@ -3,18 +3,19 @@ header {
     padding: 30px;
     text-align: center;
     font-size: 35px;
-    color: white;
+    color: rgb(85, 79, 79);
 }
 /*Se puede utilizar
 # = Para identificar los ID
 . = Para dar un identificador de clase
 */
 body{
-    background-color: #ffb4e2;
+    background-color:rgba(255, 180, 226, 1);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+
 }
 p{
-    color: aliceblue;
+    color: rgb(85, 79, 79);
     text-align: center;
 }
 
@@ -22,12 +23,16 @@ h1,h2{
     font-weight: 300;
     text-align: center;
     color: #a5492a;
-    text-decoration: underline;
+    text-decoration-thickness: 100px;
 }
 dl{
     text-align:justify;
-    color: aliceblue;
+    color: rgb(85, 79, 79);
 }
 footer .footer-right{
+    text-align: center;
+}
+
+ label .subtitle{
     text-align: center;
 }
