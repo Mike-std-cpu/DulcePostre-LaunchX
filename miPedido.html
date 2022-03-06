@@ -20,16 +20,20 @@
             <label for="Nombre" class="subtitle">¿Cuantos pasteles deseas?</label><br>
             <input type="number" name ="mesa" id="mesa" placeholder="2">
 
-            <p>¿Para comer aqui? o ¿Para llevar?</p>
-            <input type="radio" id="aqui" name="aquiollevar" value="aqui">
-            <label for="aqui">Aqui</label><br>
-            <input type="radio" id="llevar" name="aquiollevar" value="Llevar">
-            <label for="llevar">llevar</label><br>
+            <p>¿Desea adquirilo en paquete o individual?</p>
+            <input type="radio" id="paquete" name="paquete" value="paquete">
+            <label for="aqui">paquete</label><br>
+            <input type="radio" id="Individual" name="Individual" value="Individual">
+            <label for="llevar">Individual</label><br>
 
-            <p>¿De que seran tus tacos?</p>
-            <input type="checkbox" name="mercurio" id="mercurio" value="Mercurio">
-            <label for="mercurio">Mercurio</label>
-            <input type="number" name="mercurioCuantos" id="mercurioCuantos" placeholder="¿Cuantos?">
+            <p>Dependiendo tu respuesta Escribe el nombre del paquete a escoger o el nombre del pastel indivual.</p>
+            <input type="checkbox" name="paquete" id="nompaquete" value="paquete">
+            <label for="mercurio">Nombre del paquete de pastel.</label>
+            <input type="number" name="mercurioCuantos" id="mercurioCuantos" placeholder="ej: Space mode">
+            <br>
+            <input type="checkbox" name="individual" id="individual" value="Individual">
+            <label for="mercurio">Individual</label>
+            <input type="number" name="numIndividual" id="numIndividual" placeholder="Ej: Red cake">
 
             <br><br>
             <input type="reset">
