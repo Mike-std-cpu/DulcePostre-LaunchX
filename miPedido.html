@@ -14,30 +14,33 @@
 
     <p align="light"><img src="./img/icono.png" alt="logoTaconauta" width="150px"></p>
     <form action="pedido.js">
+         <p>¿Desea adquirilo en paquete o individual?</p>
+            <input class="pqte" type="radio" id="paquete" name="paquete" value="paquete">
+            <label for="aqui">paquete</label><br>
+            <input class="pqte" type="radio" id="Individual" name="Individual" value="Individual">
+            <label for="llevar">Individual</label><br>
+            <br>
+            <hr>
         <label for="Nombre" class="subtitle">¿Que pastel deseas?</label><br>
             <input type="text" placeholder="Space cake"><br><br>
 
             <label for="Nombre" class="subtitle">¿Cuantos pasteles deseas?</label><br>
             <input type="number" name ="mesa" id="mesa" placeholder="2">
 
-            <p>¿Desea adquirilo en paquete o individual?</p>
-            <input type="radio" id="paquete" name="paquete" value="paquete">
-            <label for="aqui">paquete</label><br>
-            <input type="radio" id="Individual" name="Individual" value="Individual">
-            <label for="llevar">Individual</label><br>
-
+            <br>
+            <hr>
             <p>Dependiendo tu respuesta Escribe el nombre del paquete a escoger o el nombre del pastel indivual.</p>
             <input type="checkbox" name="paquete" id="nompaquete" value="paquete">
             <label for="mercurio">Nombre del paquete de pastel.</label>
-            <input type="number" name="mercurioCuantos" id="mercurioCuantos" placeholder="ej: Space mode">
+            <input type="text" name="mercurioCuantos" id="mercurioCuantos" placeholder="ej: Space mode">
             <br>
             <input type="checkbox" name="individual" id="individual" value="Individual">
             <label for="mercurio">Individual</label>
-            <input type="number" name="numIndividual" id="numIndividual" placeholder="Ej: Red cake">
+            <input type="text" name="numIndividual" id="numIndividual" placeholder="Ej: Red cake">
 
             <br><br>
             <input type="reset">
-            <button value="Boton1"  onclick="alert('Pedido Realziado')">Enviar</button>
+            <button value="Boton1"  onclick="alert('Pedido Realiado')">Enviar</button>
             <!--<input type="submit">-->
     </form>
 </body>
